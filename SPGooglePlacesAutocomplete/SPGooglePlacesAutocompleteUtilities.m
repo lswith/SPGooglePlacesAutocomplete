@@ -22,29 +22,30 @@ NSArray *SPGooglePlacesAutocompletePlaceTypeNames(void)
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         names = [NSMutableArray array];
-        
+
         [names insertObject:@"" atIndex:SPPlaceTypeAll];
-        
+
         [names insertObject:@"geocode" atIndex:SPPlaceTypeGeocode];
+	[names insertObject:@"address" atIndex:SPPlaceTypeAddress];
         [names insertObject:@"establishment" atIndex:SPPlaceTypeEstablishment];
         [names insertObject:@"(regions)" atIndex:SPPlaceTypeRegions];
         [names insertObject:@"(cities)" atIndex:SPPlaceTypeCities];
     });
-    
+
     return names;
 }
 
 SPGooglePlacesAutocompletePlaceType SPPlaceTypeFromDictionary(NSDictionary *placeDictionary) {
     NSUInteger index;
-    
+
     for (NSString *type in placeDictionary[@"types"]) {
         index = [SPGooglePlacesAutocompletePlaceTypeNames() indexOfObject:type];
-        
+
         if (index != NSNotFound) {
             return (SPGooglePlacesAutocompletePlaceType)index;
         }
     }
-    
+
     return SPPlaceTypeGeocode;
 }
 
