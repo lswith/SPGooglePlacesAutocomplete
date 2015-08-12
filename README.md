@@ -80,3 +80,5 @@ When searching for "geocode" (address) Places, the library utilizes CLGeocoder t
 ### Sample Code
 
 For an example of how to use SPGooglePlacesAutocomplete, please see the included example project. I put a functional Google API key in the project, please don't use it elsewhere!
+
+Please also note that using the Place Autocomplete API with Apple maps is against Google's terms of service. From [the documentation](https://developers.google.com/places/documentation/autocomplete): "You can use Place Autocomplete even without a map. If you do show a map, it must be a Google map. When you display predictions from the Place Autocomplete service without a map, you must include the 'powered by Google' logo.."
