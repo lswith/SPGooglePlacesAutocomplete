@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B0580521B7C608400296EF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B0580511B7C608400296EF1 /* Images.xcassets */; };
 		6B35175D18179A1400F0BD25 /* SPGooglePlacesAutocompletePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B35175618179A1400F0BD25 /* SPGooglePlacesAutocompletePlace.m */; };
 		6B35175E18179A1400F0BD25 /* SPGooglePlacesAutocompleteQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B35175818179A1400F0BD25 /* SPGooglePlacesAutocompleteQuery.m */; };
 		6B35175F18179A1400F0BD25 /* SPGooglePlacesAutocompleteUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B35175A18179A1400F0BD25 /* SPGooglePlacesAutocompleteUtilities.m */; };
@@ -22,13 +23,10 @@
 		9C4A634715B6950C00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4A634515B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.m */; };
 		9C4A634815B6950C00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A634615B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.xib */; };
 		9C4A634A15B695FA00E15FBA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4A634915B695FA00E15FBA /* MapKit.framework */; };
-		9C4A63A615B6C01100E15FBA /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A63A415B6C01100E15FBA /* location.png */; };
-		9C4A63A715B6C01100E15FBA /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A63A515B6C01100E15FBA /* location@2x.png */; };
-		9C4A63AE15B6C0DB00E15FBA /* locateButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A63AC15B6C0DB00E15FBA /* locateButton.png */; };
-		9C4A63AF15B6C0DB00E15FBA /* locateButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A63AD15B6C0DB00E15FBA /* locateButton@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B0580511B7C608400296EF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SPGooglePlacesAutocompleteDemo/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		6B35175518179A1400F0BD25 /* SPGooglePlacesAutocompletePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocompletePlace.h; sourceTree = "<group>"; };
 		6B35175618179A1400F0BD25 /* SPGooglePlacesAutocompletePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesAutocompletePlace.m; sourceTree = "<group>"; };
 		6B35175718179A1400F0BD25 /* SPGooglePlacesAutocompleteQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocompleteQuery.h; sourceTree = "<group>"; };
@@ -54,10 +52,6 @@
 		9C4A634515B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesAutocompleteDemoViewController.m; sourceTree = "<group>"; };
 		9C4A634615B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPGooglePlacesAutocompleteDemoViewController.xib; sourceTree = "<group>"; };
 		9C4A634915B695FA00E15FBA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		9C4A63A415B6C01100E15FBA /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
-		9C4A63A515B6C01100E15FBA /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
-		9C4A63AC15B6C0DB00E15FBA /* locateButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locateButton.png; sourceTree = "<group>"; };
-		9C4A63AD15B6C0DB00E15FBA /* locateButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "locateButton@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +126,7 @@
 				9C4A634515B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.m */,
 				9C4A634615B6950B00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.xib */,
 				9C4A632815B64A3F00E15FBA /* Supporting Files */,
-				9C4A63A315B6BFFC00E15FBA /* Resources */,
+				6B0580511B7C608400296EF1 /* Images.xcassets */,
 			);
 			name = SPGooglePlacesAutocompleteDemo;
 			path = SPGooglePlacesAutocomplete;
@@ -148,17 +142,6 @@
 				9C4A632F15B64A3F00E15FBA /* SPGooglePlacesAutocompleteDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9C4A63A315B6BFFC00E15FBA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9C4A63AC15B6C0DB00E15FBA /* locateButton.png */,
-				9C4A63AD15B6C0DB00E15FBA /* locateButton@2x.png */,
-				9C4A63A415B6C01100E15FBA /* location.png */,
-				9C4A63A515B6C01100E15FBA /* location@2x.png */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,10 +171,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = tickbox.com.au;
+				ORGANIZATIONNAME = ciderstudios.com;
 			};
 			buildConfigurationList = 9C4A631715B64A3F00E15FBA /* Build configuration list for PBXProject "SPGooglePlacesAutocompleteDemo" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,12 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C4A632C15B64A3F00E15FBA /* InfoPlist.strings in Resources */,
+				6B0580521B7C608400296EF1 /* Images.xcassets in Resources */,
 				9C4A634815B6950C00E15FBA /* SPGooglePlacesAutocompleteDemoViewController.xib in Resources */,
-				9C4A63A615B6C01100E15FBA /* location.png in Resources */,
-				9C4A63A715B6C01100E15FBA /* location@2x.png in Resources */,
-				9C4A63AE15B6C0DB00E15FBA /* locateButton.png in Resources */,
 				6B9E97C4181798970003E75B /* Default-568h@2x.png in Resources */,
-				9C4A63AF15B6C0DB00E15FBA /* locateButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,12 +282,15 @@
 		9C4A633615B64A3F00E15FBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteDemo-Prefix.pch";
 				INFOPLIST_FILE = "SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = SPGooglePlacesAutocompleteDemo;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -315,12 +298,15 @@
 		9C4A633715B64A3F00E15FBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteDemo-Prefix.pch";
 				INFOPLIST_FILE = "SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = SPGooglePlacesAutocompleteDemo;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
