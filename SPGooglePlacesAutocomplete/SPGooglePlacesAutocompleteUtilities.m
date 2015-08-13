@@ -30,6 +30,8 @@ NSArray *SPGooglePlacesAutocompletePlaceTypeNames(void)
         [names insertObject:@"establishment" atIndex:SPPlaceTypeEstablishment];
         [names insertObject:@"(regions)" atIndex:SPPlaceTypeRegions];
         [names insertObject:@"(cities)" atIndex:SPPlaceTypeCities];
+        [names insertObject:@"address" atIndex:SPPlaceTypeAddress];
+
     });
 
     return names;
