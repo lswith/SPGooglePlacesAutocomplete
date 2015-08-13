@@ -1,3 +1,9 @@
+TODO
+===============
+1. process open merge request and issues
+2. update cocoapod version
+3. start working on a swift version
+
 SPGooglePlacesAutocomplete
 ===============
 
