@@ -1,10 +1,7 @@
-**Current Version - 1.0.5**
+**Current Version and Final Version - 1.0.5**
 
-TODO
-===============
-1. Process open merge request and issues (appology for keeping them for too long!)
-2. Create a swift version
-
+Deprecated! No longer maintained!
+Please use https://github.com/hkellaway/HNKGooglePlacesAutocomplete, which is actively maintained.
 
 History
 ===============
