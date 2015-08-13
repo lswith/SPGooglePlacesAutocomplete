@@ -11,8 +11,7 @@
 
 @interface SPGooglePlacesAutocompletePlace()
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSString *reference;
-@property (nonatomic, strong) NSString *identifier;
+@property (nonatomic, strong) NSString *placeId;
 @property (nonatomic) SPGooglePlacesAutocompletePlaceType type;
 @property (nonatomic, strong) NSArray* terms;
 @end
@@ -23,8 +22,7 @@
 {
     SPGooglePlacesAutocompletePlace *place = [[self alloc] init];
     place.name = placeDictionary[@"description"];
-    place.reference = placeDictionary[@"reference"];
-    place.identifier = placeDictionary[@"id"];
+    place.placeId = placeDictionary[@"place_id"];
     place.type = SPPlaceTypeFromDictionary(placeDictionary);
     NSMutableArray* terms = [NSMutableArray array];
     for (NSDictionary* term in [placeDictionary objectForKey:@"terms"])
@@ -35,8 +33,8 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"Name: %@, Reference: %@, Identifier: %@, Type: %@",
-            self.name, self.reference, self.identifier, SPPlaceTypeStringForPlaceType(self.type)];
+    return [NSString stringWithFormat:@"Name: %@, Place Id: %@, Type: %@",
+            self.name, self.placeId, SPPlaceTypeStringForPlaceType(self.type)];
 }
 
 - (CLGeocoder *)geocoder {
@@ -48,7 +46,7 @@
 
 - (void)resolveEstablishmentPlaceToPlacemark:(SPGooglePlacesPlacemarkResultBlock)block {
     SPGooglePlacesPlaceDetailQuery *query = [[SPGooglePlacesPlaceDetailQuery alloc] initWithApiKey:self.key];
-    query.reference = self.reference;
+    query.placeId = self.placeId;
     [query fetchPlaceDetail:^(NSDictionary *placeDictionary, NSError *error) {
         if (error) {
             block(nil, nil, error);

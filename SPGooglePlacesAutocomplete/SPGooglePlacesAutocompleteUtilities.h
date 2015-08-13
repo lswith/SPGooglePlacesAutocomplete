@@ -15,6 +15,7 @@
 typedef NS_ENUM(NSInteger, SPGooglePlacesAutocompletePlaceType) {
     SPPlaceTypeAll,
     SPPlaceTypeGeocode,
+    SPPlaceTypeAddress,
     SPPlaceTypeEstablishment,
     SPPlaceTypeRegions,
     SPPlaceTypeCities
