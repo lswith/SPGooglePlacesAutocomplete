@@ -1,8 +1,16 @@
+**Current Version - 1.0.5**
+
 TODO
 ===============
-1. process open merge request and issues
-2. update cocoapod version
-3. start working on a swift version
+1. Process open merge request and issues (appology for keeping them for too long!)
+2. Create a swift version
+
+
+History
+===============
+SPGooglePlacesAutocomplete was started by [Stephen Poletto] (https://github.com/spoletto) in 2012 but sort of stayed inactive. 
+
+I found it in 2013 as one of my projects needed the feature. Added a bit of updates and a podspec file, I published it to cocoapods community. Not sure if it was a wise move, maybe I should have contacted Stephen Poletto in first place...
 
 SPGooglePlacesAutocomplete
 ===============
