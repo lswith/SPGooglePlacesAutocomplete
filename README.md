@@ -1,13 +1,14 @@
-**Current Version and Final Version - 1.0.5**
+Deprecated 😵
+===
+Current and final version: 1.0.6.
 
-Deprecated! No longer maintained!
-Please use https://github.com/hkellaway/HNKGooglePlacesAutocomplete, which is actively maintained.
+Thanks for visiting but this repository is no longer maintained. To solve the problem you are facing, please check [Place Autocomplete](https://developers.google.com/places/ios-api/autocomplete) of [Google Places API for iOS](https://developers.google.com/places/ios-api/).
 
 History
 ===============
-SPGooglePlacesAutocomplete was started by [Stephen Poletto] (https://github.com/spoletto) in 2012 but sort of stayed inactive. 
+[SPGooglePlacesAutocomplete](https://github.com/spoletto/SPGooglePlacesAutocomplete) was developed by [Stephen Poletto](https://github.com/spoletto) in 2012 but wasn't discoverable on CocoaPods. I found his repository in 2013 while searching one to solve same problem for my project.
 
-I found it in 2013 as one of my projects needed the feature. Added a bit of updates and a podspec file, I published it to cocoapods community. Not sure if it was a wise move, maybe I should have contacted Stephen Poletto in first place...
+I thought it would be easier if it could be integrated via CocoaPods, so I cloned his repository, added come updates to the demo project and a .podspec file, then published it onto CocoaPods. Not sure if it was a wise move, maybe I should have contacted Stephen in first place as it sounds like I was taking all the credits.
 
 SPGooglePlacesAutocomplete
 ===============
@@ -23,11 +24,6 @@ Screenshots
 ![](http://i.imgur.com/heUHG4w.png)
 ![](http://i.imgur.com/l0uZGXX.png)
 
-
-TODO
--------------
-1. Add Unit Test
-2. Create a Swift version
 
 How To Use It
 -------------
