@@ -9,6 +9,8 @@
 //
 
 #define kGoogleAPINSErrorCode 42
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @class CLPlacemark;
 
