@@ -6,6 +6,9 @@
 //  Copyright (c) 2012 Stephen Poletto. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
 #import "SPGooglePlacesAutocompleteUtilities.h"
 
 @interface SPGooglePlacesPlaceDetailQuery : NSObject {
